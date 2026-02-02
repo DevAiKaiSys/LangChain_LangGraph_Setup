@@ -24,7 +24,13 @@ Deactivate a virtual environment
 deactivate
 ```
 
-## Install dependencies
+## [Requirements Files](https://pip.pypa.io/en/latest/user_guide/#requirements-files)
+
+```bash
+pip freeze > requirements.txt
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
